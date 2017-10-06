@@ -36,6 +36,9 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>res\easy.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -100,6 +103,12 @@
     <Resource Include="res\easy.mask.png" />
     <Resource Include="res\easy.up.png" />
     <Resource Include="res\easy.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="res\easy.up - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="res\easy.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
